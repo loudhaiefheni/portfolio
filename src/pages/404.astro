@@ -1,0 +1,17 @@
+---
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<div class="pagenotfoundpadding">
+	<BaseLayout title="Not Found" description="404 Error — this page was not found">
+		<Hero title="Page Not Found" tagline="Not found" />
+	</BaseLayout>
+</div>
+
+
+<style>
+	.pagenotfoundpadding {
+		padding-top: 10em ;
+	}
+</style>

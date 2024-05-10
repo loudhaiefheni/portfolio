@@ -1,0 +1,73 @@
+---
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<img
+			alt="isty image"
+			width="50"
+			height="50"
+			src="/assets/ult.png"
+		/>
+		<h2>BACHELOR'S DEGREE IN MANAGEMENT INFORMATION SYSTEMS </h2>
+		<h10 >ULT : 2021</>
+		<p>This program provides a comprehensive education in computer science with a focus on information systems and management. Students gain a strong foundation in programming, database management, systems analysis, and project management, preparing them to effectively bridge the gap between technology and business operations.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<img
+			alt="ult image"
+			width="300"
+			height="50"
+			src="/assets/isty.png"
+		/>
+		<h2>ENGINEERING DEGREE IN COMPUTER SCIENCE</h2>
+		<h10 >ISTY : 2024</>
+		<p>The curriculum covers key topics such as programming languages, algorithms, frameworks, data structures, software development methodologies, and design. Students develop problem-solving skills and engage in hands-on projects, often working in groups of six to foster teamwork and practical application of theoretical knowledge.</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+	/* img {
+		box-shadow: var(--shadow-md);
+	} */
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: flex;
+        	grid-template-columns: repeat(3, 1fr);
+        	gap: 5rem;
+        	flex-direction: row;
+			
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
