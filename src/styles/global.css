@@ -22,6 +22,7 @@
 	--accent-overlay: hsla(280, 89%, 67%, 0.33);
 	--accent-subtle-overlay: var(--accent-overlay);
 	--accent-text-over: var(--gray-999);
+	--accent-text-social-img : var(--accent-light);
 
 	--link-color: var(--accent-regular);
 
@@ -94,6 +95,7 @@
 	--accent-overlay: hsla(280, 89%, 67%, 0.33);
 	--accent-subtle-overlay: hsla(281, 81%, 36%, 0.33);
 	--accent-text-over: var(--gray-0);
+	--accent-text-social-img : var(--gray-0);
 
 	--link-color: var(--accent-dark);
 
