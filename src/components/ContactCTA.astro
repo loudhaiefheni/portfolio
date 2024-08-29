@@ -2,7 +2,7 @@
 import CallToAction from './CallToAction.astro';
 import Icon from './Icon.astro';
 ---
-
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <aside>
 	<h2>GET TOUCH ME? </h2>
 	<p>Whether you have a brilliant project idea, need coding advice, or just want to discuss the fascinating world of technology, I'm here to listen, assist, and collaborate.</p>
@@ -10,6 +10,7 @@ import Icon from './Icon.astro';
 		Send Me a Message
 		<Icon icon="paper-plane-tilt" size="1.2em" />
 	</CallToAction>
+	<div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="loudhaiefheni" data-version="v1"></div>
 </aside>
 
 <style>
